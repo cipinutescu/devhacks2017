@@ -1,0 +1,7 @@
+com\devhacks\authentification\AuthentificationManager.class
+com\devhacks\bean\AuthentificationBean.class
+com\devhacks\model\User.class
+com\devhacks\dao\UserDAO.class
+com\devhacks\authentification\AuthentificationController.class
+com\devhacks\utils\HibernateUtil.class
+com\devhacks\Main.class

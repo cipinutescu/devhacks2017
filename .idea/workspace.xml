@@ -2,21 +2,412 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f81c2b1-532b-420a-b877-8bc8e197349a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/devhacks/bean/WeekSprintBean.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/devhacks/initial/InitialContextController.class" afterPath="$PROJECT_DIR$/target/classes/com/devhacks/initial/InitialContextController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/img/dark_wood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/img/slide-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/img/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/colorpicker/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/colorpicker/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/colorpicker/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/dropzone/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/dropzone/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-multi-select/img/switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/img/droparrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/img/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/img/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/img/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sweet-alert/thumbs-up.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/sm-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/sm-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/sm-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/sm-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/sm-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/album/stilllife_render.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/avatar-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/bg_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/favicon_1.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/img_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/img_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/loginBackground.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/logo_dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/semaphore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/img/single-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/404_alt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-calendar/bic_calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-calendar/bic_calendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-inputmask/bootstrap-inputmask.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-wysihtml5/wysiwyg-color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-xeditable/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/bootstrap-xeditable/bootstrap-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/c3-chart/c3-chart.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/c3-chart/c3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/c3-chart/c3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/c3-chart/d3.v3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/css/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/css/calendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/events.json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/index-bs3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/calendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/ar-SA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/bs-BA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/cs-CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/da-DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/de-AT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/el-GR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/es-CO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/es-MX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/hr-HR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/no-NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/ro-RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/sk-SR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/sl-SL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/tr-TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/js/language/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/calendar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/day.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/events.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/month.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/less/week.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/day.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/events-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/month-day.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/month.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/week-days.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/week.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/year-month.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/tmpls/year.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/bootstrap-calendar-master/bootstrap-calendar-master/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/calendar-conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/events.json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/day.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/events-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/month-day.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/month.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/week-days.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/week.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/year-month.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/calendar/tmpls/year.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/chartjs/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/chartjs/chartjs.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/chat/moment-2.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/custom.codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/formatting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/codemirror/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/colorpicker/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/colorpicker/colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/cropper/cropper-conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/cropper/cropper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/cropper/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datatables/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datepicker/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/datepicker/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/dropzone/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/dropzone/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/easypie-chart/easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/easypie-chart/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/easypie-chart/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/flot-chart/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/form-wizard/bootstrap-validator.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/form-wizard/jquery.steps.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/form-wizard/jquery.steps.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/form-wizard/wizard-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/bootstrap-fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/calendar-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/dragging-calendar-event-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/external-dragging-calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/fullcalendar/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/globalize/globalize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/gmaps/gmaps-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/gmaps/gmaps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/css/ionicons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/css/ionicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/ionicon/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-jvectormap/jquery-jvectormap-1.2.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-jvectormap/jquery-jvectormap-europe-merc-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-knob/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-knob/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-multi-select/jquery.multi-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-multi-select/jquery.quicksearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery-multi-select/multi-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery.validate/form-validation-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/jquery.validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/modal-effect/css/component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/modal-effect/js/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/modal-effect/js/modalEffects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/morris/morris.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/nestable/jquery.nestable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/nestable/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/nestable/nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/notifications/notification.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/notifications/notifications.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/notifications/notify-metro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/notifications/notify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/owl-carousel/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/owl-carousel/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/data/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/data/data.jsonp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/data/data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/data/status.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/rickshaw.chart.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/rickshaw.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/rickshaw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/vendor/d3.layout.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/rickshaw-chart/vendor/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/select2/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sortable/sortable-theme-bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sortable/sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sparkline-chart/chart-sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sparkline-chart/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/spinner/spinner.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/summernote/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/summernote/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sweet-alert/sweet-alert.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sweet-alert/sweet-alert.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/sweet-alert/sweet-alert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/tagsinput/jquery.tagsinput.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/tagsinput/jquery.tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/timepicker/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/timepicker/bootstrap-datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/timepicker/bootstrap-timepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/timepicker/bootstrap-timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/toggles/toggles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/toggles/toggles.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery-jvectormap-1.1.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.asia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.australia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.europe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.sampledata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.usa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jquery.vmap.world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/jqvmap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/assets/vector-map/vmap-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/blank.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/bootstrap-ui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/c3-chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/chartjs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/code-editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/common.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap-reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/style-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/dashboard2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/email-compose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/email-read.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/flot-chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-elements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-uploads.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-validation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/form-wizard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/gameScene.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/graphs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/image-crop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/inbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/invoice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery-ui-1.10.1.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.chat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.dashboard2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.nicescroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.scrollTo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/jquery.todo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/modernizr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/skycons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/js/wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/leaflet-routing-machine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/leaflet-routing-machine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/leaflet-routing-machine.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/lock-screen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/modals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/morris-chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/nestable-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/newGame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/notification.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/other-chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/panels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/portlets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/progressbars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/recoverpw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/rickshaw-chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/sweet-alert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/table-datatable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/tabs-accordions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/timeline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/vector-map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Devhacks/widgets.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/devhacks/initial/InitialContextProvider.class" afterPath="$PROJECT_DIR$/target/classes/com/devhacks/initial/InitialContextProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devhacks-0.1.0.jar" afterPath="$PROJECT_DIR$/target/devhacks-0.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devhacks-0.1.0.jar.original" afterPath="$PROJECT_DIR$/target/devhacks-0.1.0.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devhacks.iml" afterPath="$PROJECT_DIR$/devhacks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devhacks/bean/InitialGameScenarioBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/devhacks/bean/InitialGameScenarioBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java" afterPath="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="devhacks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +433,8 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="76" column="91" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="91" />
+            <state relative-caret-position="1175">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,31 +445,18 @@
       <file leaf-file-name="GameStatisticsManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameStatisticsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
+            <state relative-caret-position="225">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlanningEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/model/PlanningEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MachineLearningController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MachineLearningController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/MachineLearningController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+            <state relative-caret-position="1225">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +464,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AuthentificationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/authentification/AuthentificationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="24" column="0" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameMetrics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/bean/GameMetrics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="1525">
               <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding />
             </state>
@@ -99,7 +487,7 @@
       <file leaf-file-name="GAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/GAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="3700">
               <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,7 +509,7 @@
       <file leaf-file-name="EventsManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/events/EventsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3440">
+            <state relative-caret-position="5175">
               <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding />
             </state>
@@ -131,8 +519,8 @@
       <file leaf-file-name="InitialContextController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+            <state relative-caret-position="825">
+              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,14 +528,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealTimeInitialComputation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/RealTimeInitialComputation.java">
+      <file leaf-file-name="InitialContextProvider.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="757">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,12 +583,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/Population.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/Individual.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/initial/RealTimeInitialComputation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/GAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/MachineLearningController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/bean/GameMetrics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devhacks/model/UnexpectedEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java" />
       </list>
     </option>
   </component>
@@ -252,6 +638,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,329 +658,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machinelearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devhacks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="authentification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -912,36 +980,51 @@
       <option name="presentableId" value="Default" />
       <updated>1509089282583</updated>
     </task>
+    <task id="LOCAL-00001" summary="xx">
+      <created>1509180411345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509180411345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xx">
+      <created>1509180434854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509180434854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24406047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24406047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2669963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2669963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -954,6 +1037,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,7 +1056,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/utils/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/MachineLearningController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/authentification/AuthentificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="0" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/bean/GameMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/GAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3700">
+          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/model/UnexpectedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/events/EventsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5175">
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -977,11 +1126,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/utils/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="67" column="103" selection-start-line="67" selection-start-column="103" selection-end-line="67" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,9 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="80" column="5" selection-start-line="61" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,16 +1166,6 @@
         <state relative-caret-position="365">
           <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/authentification/AuthentificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="24" column="0" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,9 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,7 +1192,7 @@
         <state relative-caret-position="725">
           <caret line="80" column="34" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,21 +1229,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/model/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/model/Event.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#347#348#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="561" column="0" selection-start-line="561" selection-start-column="0" selection-end-line="561" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="469" column="0" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,42 +1319,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#503#504#0" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
-            <element signature="e#592#593#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="707" column="12" selection-start-line="707" selection-start-column="12" selection-end-line="707" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,10 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,9 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,42 +1371,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/events/EventsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3440">
+        <state relative-caret-position="5175">
           <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameStatisticsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/GAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="3700">
           <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1335,7 +1394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/bean/GameMetrics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="1525">
           <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
           <folding />
         </state>
@@ -1349,23 +1408,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/MachineLearningController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="76" column="91" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="91" />
+        <state relative-caret-position="1225">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/machinelearning/MachineLearningController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/authentification/AuthentificationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+        <state relative-caret-position="500">
+          <caret line="24" column="0" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/game/GameStatisticsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/devhacks/initial/InitialContextProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

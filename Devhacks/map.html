@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="img/favicon_1.ico">
+
+        <title>Mobiway WebIX - Web Interface eXperience</title>
+
+        <!-- Google-Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic' rel='stylesheet'>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+        <!--Animation css-->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!--Icon-fonts css-->
+        <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
+
+        <!--Morris Chart CSS -->
+        <link rel="stylesheet" href="assets/morris/morris.css">
+
+        <!-- sweet alerts -->
+        <link href="assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/helper.css" rel="stylesheet">
+        <link href="css/style-responsive.css" rel="stylesheet" />
+
+        <!-- leaflet maps -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+
+
+    <link rel="stylesheet" href="leaflet-routing-machine.css" />
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body>
+
+        <!-- Aside Start-->
+        <aside class="left-panel">
+
+            <!-- brand -->
+            <div class="logo">
+                <a href="#" class="logo-expanded">
+                    <img src="img/single-logo.png" alt="logo">
+                    <span class="nav-label">Mobiway</span>
+                </a>
+            </div>
+            <!-- / brand -->
+        
+            <!-- Navbar Start -->
+            <!-- Navbar Start -->
+            <nav class="navigation">
+                <ul class="list-unstyled">
+                    <li  class="has-submenu "><a id="link-dashboard" ><i class="ion-home"></i> <span class="nav-label">Dashboard</span></a>
+                        
+                    </li>
+                    <li class="has-submenu"><a ><i class="ion-stats-bars"></i>  <span class="nav-label">Statistics</span></a>
+                        <ul class="list-unstyled">
+                            <li><a id="link-graph1" >Speed Statistics</a></li>
+                            <li><a id="link-graph2" >Idle/Non-idle Statistics</a></li>
+                            <li><a id="link-graph3" >Distance and Time Statistics</a></li>
+                            <li><a id="link-graph4" >Fuel and Data Statistics</a></li>
+                        </ul>
+                    </li>
+                    <li  class="has-submenu active"><a id="link-map" ><i class="ion-location"></i> <span class="nav-label">Map</span></a>
+                    </li>
+                    <li  class="has-submenu"><a id="link-common" ><i class="ion-drag"></i> <span class="nav-label">Public WebIX</span></a>
+                    </li>
+                </ul>
+            </nav>
+                
+        </aside>
+        <!-- Aside Ends-->
+
+
+        <!--Main Content Start -->
+        <section class="content">
+            
+            <!-- Header -->
+            <header class="top-head container-fluid">
+                <button type="button" class="navbar-toggle pull-left">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- Search -->
+                <form role="search" class="navbar-left app-search pull-left hidden-xs">
+                  <input type="text" placeholder="Search..." class="form-control">
+                </form>
+                
+                <!-- Left navbar -->
+                <nav class=" navbar-default hidden-xs" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a data-toggle="dropdown" class="dropdown-toggle" href="#">English <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">Romanian</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- Right navbar -->
+                <ul class="list-inline navbar-right top-menu top-right-menu">  
+                    
+
+                    <!-- user login dropdown start-->
+                    <li class="dropdown text-center">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img alt="" src="img/avatar-2.jpg" class="img-circle profile-img thumb-sm">
+                            <span class="username">Ciprian </span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
+                            <li><a href="profile.html"><i class="fa fa-briefcase"></i>Profile</a></li>
+                            <li><a href="#"><i class="fa fa-bell"></i> Friends <span class="label label-info pull-right mail-info">5</span></a></li>
+                            <li><a href="login.html"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->       
+                </ul>
+                <!-- End right navbar -->
+
+            </header>
+            <!-- Header Ends -->
+
+
+            <!-- Page Content Start -->
+            <!-- ================== -->
+
+            <div class="wraper container-fluid">
+                <div class="page-title"> 
+                    <h3 class="title">OSM Map !</h3> 
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portlet"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark">
+                                    Map Display Features
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#portlet7"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet7" class="panel-collapse collapse in">
+                                <div class="portlet-body">
+                                    <div id="mapid" style="height: 560px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div> <!-- End row -->
+                <div class="row">
+                     <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h3 class="panel-title">Search and Routing Options</h3></div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                                <span class="input-group-btn">
+                                                <button type="button" class="btn btn-effect-ripple btn-primary" onclick="searchLocation()"><i class="fa fa-search"></i></button>
+                                                </span>
+                                                <input type="text"  name="example-input1-group2" class="form-control" placeholder="Search" id="searchTextBox">
+                                            </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-sm-4 control-label">Routing Algorithm</label>
+                                        <div class="col-sm-8">
+                                            <select class="form-control">
+                                                <option>Leaflet Routing Machine</option>
+                                                <option>Mobiway Routing Algorithm</option>
+                                                <option>Machine Learning Fusion</option>
+                                            </select>
+                                        </div>
+                                 </div>
+                                 <div class="form-group">
+                                        <label class="col-sm-4 control-label">From location</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" value="" placeholder="From location" id="fromLocationTexBox">
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                        <label class="col-sm-4 control-label">To destination</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" value="" placeholder="To destination" id="toLocationTextBox">
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-effect-ripple btn-primary" id="routeToFromLocation" onclick="routeToFromLocation()">Route !</button>
+
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                      <div class="col-sm-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h3 class="panel-title">Display Options</h3></div>
+                             <div class="panel-body">
+                             <div class="form-group">
+                                     <!-- <label class="col-md-3 control-label">Checkboxes</label> -->
+                                     <div class="col-md-9">
+                                        <div class="checkbox">
+                                                <label class="cr-styled">
+                                                    <input type="checkbox" id="displayTrafficJams" checked>
+                                                    <i class="fa"></i> 
+                                                    Display traffic jams
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label class="cr-styled">
+                                                    <input type="checkbox" id="displayEvents" checked>
+                                                    <i class="fa"></i> 
+                                                    Display traffic events
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label class="cr-styled">
+                                                    <input type="checkbox" id="enabbleRoutingOnMap" checked>
+                                                    <i class="fa"></i> 
+                                                    Enable routing on map
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label class="cr-styled">
+                                                    <input type="checkbox" id="displayMyJourneys" checked>
+                                                    <i class="fa"></i> 
+                                                    Display my journeys
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label class="cr-styled">
+                                                    <input type="checkbox" id="displayMyCurrentLocation" checked>
+                                                    <i class="fa"></i> 
+                                                    Display my curent location
+                                                </label>
+                                            </div>
+                                
+                                     </div>
+                             </div>
+                             </div>
+                             </div>
+                      </div>
+                </div>
+
+            </div>
+            <!-- Page Content Ends -->
+            <!-- ================== -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                2017 © Mobiway.
+            </footer>
+            <!-- Footer Ends -->
+
+
+
+        </section>
+        <!-- Main Content Ends -->
+        
+
+
+       <!-- js placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+        <script src="js/jquery.app.js"></script>
+
+        <!-- leaflet maps js -->
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+   integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+   crossorigin=""></script>
+        
+
+    <script src="leaflet-routing-machine.js"></script>
+
+
+    <script type="text/javascript">
+
+var CSS_COLOR_NAMES = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque","Black","BlanchedAlmond","Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","FloralWhite","ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HoneyDew","HotPink","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow","YellowGreen"];
+
+var colorIndex = 0;
+
+        function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+    function(m,key,value) {
+      vars[key] = value;
+    });
+    return vars;
+  }
+var user_id = getUrlVars('user_id').user_id;
+                var user_token = getUrlVars('user_token').user_token;
+                console.log(user_id);
+                console.log(user_token);
+        jQuery(document).ready(function($) {
+                /*$('.counter').counterUp({
+                    delay: 100,
+                    time: 1200
+                });*/
+
+                
+                
+                $('#link-dashboard').attr('href','main.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-graph1').attr('href','graphs.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-graph2').attr('href','graphs.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-graph3').attr('href','graphs.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-graph4').attr('href','graphs.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-common').attr('href','common.html?user_id='+user_id+'&user_token='+user_token);
+                $('#link-map').attr('href','map.html?user_id='+user_id+'&user_token='+user_token);
+            });
+
+
+
+        var mymap = L.map('mapid').setView([44.4274172, 26.1161798], 13);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+
+
+        
+        var journeysPoints = new Array();
+        var centronomsPoints = new Array();
+        $("#displayTrafficJams").change(function() {
+    if(this.checked) {
+        $.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllCentronoms?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data);
+                        for(var i=0;i<data.length;i++){
+                            if(parseFloat(data[i].latitude) == NaN || parseFloat(data[i].longitude) == NaN)
+                                continue;
+                            var circle = L.circle([data[i].latitude,data[i].longitude], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(mymap);
+                            centronomsPoints.push(circle);
+                        }
+                    }});
+    } else {
+        for(var i=0;i<centronomsPoints.length;i++){
+        mymap.removeLayer(centronomsPoints[i]);
+    }
+    centronomsPoints = [];
+    }
+});
+
+
+var lines = [];
+
+function GetFormattedDate(timex) {
+    var todayTime = new Date(timex);
+    var month = todayTime.getMonth() + 1;
+    var day = todayTime.getDate();
+    var year = todayTime.getFullYear();
+    var hour = todayTime.getHours();
+    var minutes = todayTime.getMinutes();
+    return month + "/" + day + "/" + year + " " + hour + ":" + minutes;
+}
+
+
+$("#displayMyJourneys").change(function() {
+    if(this.checked) {
+        $.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllPointForUser?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data);
+                        for(var i=0;i<data.length;i++){
+                            var linePoints = [];
+                            for(var j=0; j < data[i].length;j++){
+                                var marker = L.marker([data[i][j].latitude,data[i][j].longitude]).bindPopup("Speed : " + data[i][j].speed + "\nTimestamp  : " + GetFormattedDate(data[i][j].timestamp * 1000)).addTo(mymap);
+                                linePoints.push([data[i][j].latitude,data[i][j].longitude]);
+                                journeysPoints.push(marker);    
+                            }
+                            var polyline = L.polyline(linePoints, {color: CSS_COLOR_NAMES[colorIndex]}).addTo(mymap);
+                            lines.push(polyline);
+                            j
+                            linePoints = [];
+                            colorIndex +=1;
+                            if(colorIndex == CSS_COLOR_NAMES.length)
+                                colorIndex = 0;
+                        }
+                    }});
+    } else {
+        for(var i=0;i<journeysPoints.length;i++){
+        mymap.removeLayer(journeysPoints[i]);
+
+    }
+     for(var i = 0 ; i< lines.length;i++){
+        mymap.removeLayer(lines[i]);
+     }
+    journeysPoints = [];
+    lines = [];
+    }
+});
+
+var eventList = [];
+
+var carAccidentIcon = L.icon({
+    iconUrl: 'img/c.png',
+    iconSize : [30,40],
+    iconAnchor: [20,40],
+    popupAnchor: [-3,-76] 
+
+});
+var road_blockedIcon = L.icon({
+    iconUrl: 'img/r.png',
+    iconSize : [30,40],
+    iconAnchor: [20,40],
+    popupAnchor: [-3,-76] 
+
+});
+
+
+$('#displayEvents').change(function(){
+    if(this.checked) {
+        $.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllEvents?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        for(var i=0;i<data.length;i++){
+                            if(data[i].name == 'car_accident'){
+                                var marker = L.marker([data[i].latitude,data[i].longitude],{icon: carAccidentIcon}).bindPopup("Car accident ahead about "+data[i].time_since_event + " minutes ago on a distance of " + data[i].distance + " m").addTo(mymap);
+                                eventList.push(marker);
+                            } else if(data[i].name == 'road_blocked'){
+                                var marker = L.marker([data[i].latitude,data[i].longitude],{icon: road_blockedIcon}).bindPopup("Road blocked ahead about "+data[i].time_since_event + " minutes ago on a distance of " + data[i].distance + " m").addTo(mymap);
+                                eventList.push(marker);
+                            }
+                            
+                        }
+                    }
+                });
+    } else {
+            for(var i=0;i<eventList.length;i++){
+                mymap.removeLayer(eventList[i]);
+            }
+            eventList = [];
+    }
+
+});
+
+var curentPosition;
+
+$("#displayMyCurrentLocation").change(function() {
+    
+    if(this.checked) {
+        
+function showPosition(position) {
+
+    $.ajax({
+                    method: "GET",
+                    url: "http://nominatim.openstreetmap.org/reverse?format=json&lat=" +position.coords.latitude + "&lon="+position.coords.longitude +"&zoom=18&addressdetails=1",
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building);
+                        curentPosition = L.marker([position.coords.latitude,position.coords.longitude]).bindPopup(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building).addTo(mymap);
+                        $('#fromLocationTexBox').val(data.address.city + " , " + data.address.state_district +"," + data.address.road);
+                        
+                    }});
+    
+
+}
+ navigator.geolocation.getCurrentPosition(showPosition);
+
+} else{
+    mymap.removeLayer(curentPosition);
+}});
+
+
+function searchLocation(){
+    var searchText = $('#searchTextBox').val();
+    console.log(searchText);
+
+ $.ajax({
+                    method: "GET",
+                    url: " http://nominatim.openstreetmap.org/search/" + searchText+"?format=json&addressdetails=1&limit=1&polygon_svg=1",
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data);
+                        
+                        var marker = L.marker([data[0].lat,data[0].lon]).bindPopup(data[0].display_name ).addTo(mymap);
+
+                        
+
+                        /*console.log(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building);
+                        curentPosition = L.marker([position.coords.latitude,position.coords.longitude]).bindPopup(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building).addTo(mymap);
+                        $('#fromLocationTexBox').val(data.address.city + " , " + data.address.state_district +"," + data.address.road);*/
+                         $('#toLocationTextBox').val(data[0].display_name);
+                    }});
+
+}
+var routing;
+function routeToFromLocation(){
+    var fromLocation = $('#fromLocationTexBox').val(); 
+      var toLocation = $('#toLocationTextBox').val();  
+    $.ajax({
+                    method: "GET",
+                    url: " http://nominatim.openstreetmap.org/search/" + fromLocation+"?format=json&addressdetails=1&limit=1&polygon_svg=1",
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data1){
+                        console.log(data1);
+                         $.ajax({
+                    method: "GET",
+                    url: " http://nominatim.openstreetmap.org/search/" + toLocation+"?format=json&addressdetails=1&limit=1&polygon_svg=1",
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data2){
+                        console.log(data2);
+                        routing = L.Routing.control({
+    waypoints: [
+        L.latLng(data1[0].lat, data1[0].lon),
+        L.latLng(data2[0].lat, data2[0].lon)
+    ],
+    routeWhileDragging: true
+}).addTo(mymap);
+    $('#enabbleRoutingOnMap').attr('checked','true');
+
+                    }
+                });
+
+                    }
+                });
+
+
+    
+}
+
+
+
+$("#enabbleRoutingOnMap").change(function() {
+    console.log('sadas');
+    if(this.checked) {
+
+    }else {
+        mymap.removeControl(routing);
+    } });
+
+
+
+$.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllCentronoms?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data);
+                        for(var i=0;i<data.length;i++){
+                            if(parseFloat(data[i].latitude) == NaN || parseFloat(data[i].longitude) == NaN)
+                                continue;
+                            var circle = L.circle([data[i].latitude,data[i].longitude], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(mymap);
+                            centronomsPoints.push(circle);
+                        }
+                    }});
+
+function showPosition(position) {
+
+    $.ajax({
+                    method: "GET",
+                    url: "http://nominatim.openstreetmap.org/reverse?format=json&lat=" +position.coords.latitude + "&lon="+position.coords.longitude +"&zoom=18&addressdetails=1",
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building);
+                        curentPosition = L.marker([position.coords.latitude,position.coords.longitude]).bindPopup(data.address.country + "," + data.address.city + " , " + data.address.state_district +"," + data.address.road + " , " + data.address.public_building).addTo(mymap);
+                        //$('#fromLocationTexBox').val(data.address.city + " , " + data.address.state_district +"," + data.address.road);
+                        mymap.setView(new L.LatLng(position.coords.latitude, position.coords.longitude), 14);
+
+                    }});
+    
+
+}
+    
+
+
+ navigator.geolocation.getCurrentPosition(showPosition);
+
+
+
+ $.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllPointForUser?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        console.log(data);
+                        for(var i=0;i<data.length;i++){
+                            var linePoints = [];
+                            for(var j=0; j < data[i].length;j++){
+                                var marker = L.marker([data[i][j].latitude,data[i][j].longitude]).bindPopup("Speed : " + data[i][j].speed + "\nTimestamp  : " + GetFormattedDate(data[i][j].timestamp * 1000)).addTo(mymap);
+                                linePoints.push([data[i][j].latitude,data[i][j].longitude]);
+                                journeysPoints.push(marker);    
+                            }
+                            var polyline = L.polyline(linePoints, {color: CSS_COLOR_NAMES[colorIndex]}).addTo(mymap);
+                            lines.push(polyline);
+                            j
+                            linePoints = [];
+                            colorIndex +=1;
+                            if(colorIndex == CSS_COLOR_NAMES.length)
+                                colorIndex = 0;
+                        }
+                    }});
+
+ $.ajax({
+                    method: "GET",
+                    url: "http://localhost:8080/getAllEvents?userId="+user_id+"&uiToken="+user_token,
+                    headers: {
+                         'Access-Control-Allow-Origin':'*'
+                     },
+                    contentType:'application/json',
+                    success: function(data){
+                        for(var i=0;i<data.length;i++){
+                            if(data[i].name == 'car_accident'){
+                                var marker = L.marker([data[i].latitude,data[i].longitude],{icon: carAccidentIcon}).bindPopup("Car accident ahead about "+data[i].time_since_event + " minutes ago on a distance of " + data[i].distance + " m").addTo(mymap);
+                                eventList.push(marker);
+                            } else if(data[i].name == 'road_blocked'){
+                                var marker = L.marker([data[i].latitude,data[i].longitude],{icon: road_blockedIcon}).bindPopup("Road blocked ahead about "+data[i].time_since_event + " minutes ago on a distance of " + data[i].distance + " m").addTo(mymap);
+                                eventList.push(marker);
+                            }
+                            
+                        }
+                    }
+                });
+
+
+    </script>
+
+    </body>
+</html>

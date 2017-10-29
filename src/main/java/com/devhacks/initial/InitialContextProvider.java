@@ -102,7 +102,7 @@ public class InitialContextProvider {
         int total_story_point = 0;
         while (total_story_point < max_story_points) {
             Random random = new Random();
-            int number_of_sp = fibonnaci(Math.abs(random.nextInt(8)));
+            int number_of_sp = fibonnaci(Math.abs(random.nextInt(8)+1));
             UserStory userStory = new UserStory("story" + total_story_point, "", number_of_sp);
             userStoryLsit.add(userStory);
             total_story_point += number_of_sp;
